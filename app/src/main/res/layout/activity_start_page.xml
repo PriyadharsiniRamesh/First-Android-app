@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priya.shapes.Start_page"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_marginStart="34dp"
+        android:layout_toEndOf="@+id/guideline2"
+        android:contentDescription="@string/String"
+        app:srcCompat="@mipmap/shape"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/guideline2"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="71dp"
+        android:contentDescription="@string/String1"
+        app:srcCompat="@mipmap/converter"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:contentDescription="@string/String2"
+        app:srcCompat="@mipmap/calculator"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="562dp" />
+
+</RelativeLayout>
